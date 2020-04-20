@@ -1,0 +1,15 @@
+name: 'Hello JavaScript Action'
+description: ':tada:'
+inputs:
+  greeting:
+    description: 'in the morning'
+    required: true
+    default: 'Good morning'
+outputs:
+  time:
+    description: 'The time we greeted you'
+  say:
+    description: 'Greeting you input'
+runs:
+  using: 'node12'
+  main: 'index.js'
